@@ -9,6 +9,7 @@ import FAQSection from "../components/FAQSection";
 import DisclaimerSection from "../components/DisclaimerSection";
 import CTASection from "../components/CTASection";
 import Footer from "../components/Footer";
+import SmallDisclaimer from "../components/SmallDisclaimer";
 
 const Index = () => {
   // Add scanline effect
@@ -25,6 +26,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-cyber-darker text-white overflow-hidden">
       <Header />
+      <SmallDisclaimer />
       <main>
         <HeroSection />
         <FeaturesSection />
