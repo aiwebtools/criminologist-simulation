@@ -28,7 +28,7 @@ const HeroSection = () => {
                 animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : -20 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
-                LEADING AI CRIMINOLOGY TOOL
+                EXPERIMENTAL SIMULATION TOOL
               </motion.div>
               
               <motion.h1 
@@ -38,7 +38,7 @@ const HeroSection = () => {
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
                 <span className="text-glow">Crime Solver Pro</span>
-                <span className="block text-2xl md:text-3xl mt-2 text-glow-purple">Advanced AI Criminologist</span>
+                <span className="block text-2xl md:text-3xl mt-2 text-glow-purple">AI Criminology Simulation</span>
               </motion.h1>
               
               <motion.p 
@@ -47,8 +47,8 @@ const HeroSection = () => {
                 animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : -20 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
               >
-                Harness the power of cutting-edge AI to analyze evidence, process crime scenes, 
-                interview witnesses, and uncover new leads in cold cases.
+                Explore the possibilities of AI in crime analysis through this educational simulation. 
+                For training, research, and educational purposes only - not for real investigations.
               </motion.p>
             </div>
             
@@ -64,7 +64,7 @@ const HeroSection = () => {
                 size="lg"
                 className="flex items-center gap-2"
               >
-                <span>Try Crime Solver Pro</span>
+                <span>Try The Simulation</span>
                 <ArrowRight size={18} />
               </CyberButton>
               
@@ -84,10 +84,10 @@ const HeroSection = () => {
               transition={{ duration: 0.8, delay: 1.0 }}
             >
               {[
-                { icon: <Fingerprint size={20} />, text: "Forensic Analysis" },
-                { icon: <Shield size={20} />, text: "Cold Case Resolver" },
-                { icon: <Search size={20} />, text: "Evidence Processing" },
-                { icon: <Brain size={20} />, text: "AI-Powered Insights" },
+                { icon: <Fingerprint size={20} />, text: "Evidence Simulation" },
+                { icon: <Shield size={20} />, text: "Educational Tool" },
+                { icon: <Search size={20} />, text: "Research Platform" },
+                { icon: <Brain size={20} />, text: "AI Experimentation" },
               ].map((item, index) => (
                 <div 
                   key={index} 

@@ -29,26 +29,26 @@ const HowItWorksSection = () => {
   const steps = [
     {
       icon: <Camera />,
-      title: "Upload Evidence",
-      description: "Provide crime scene photos, reports, witness statements, and any other relevant information.",
+      title: "Submit Sample Data",
+      description: "Upload sample or hypothetical evidence for educational analysis. Not for actual case data.",
       delay: 0.1
     },
     {
       icon: <FileSearch />,
-      title: "AI Analysis",
-      description: "The system analyzes all provided data using advanced algorithms and pattern recognition.",
+      title: "Simulation Runs",
+      description: "AI demonstrates analysis techniques on the sample data, with clear indication of experimental nature.",
       delay: 0.3
     },
     {
       icon: <Database />,
-      title: "Cross-Reference",
-      description: "Evidence is compared against databases of similar cases and relevant legal precedents.",
+      title: "Educational Context",
+      description: "Results are presented in an educational context, highlighting both potential insights and limitations.",
       delay: 0.5
     },
     {
       icon: <BrainCircuit />,
-      title: "Insights & Recommendations",
-      description: "Receive detailed analysis, potential leads, and recommended next steps for your investigation.",
+      title: "Learning Opportunity",
+      description: "Use the simulation as a learning tool to understand AI's potential and limitations in investigative work.",
       delay: 0.7
     }
   ];

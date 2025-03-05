@@ -30,33 +30,33 @@ const FeaturesSection = () => {
   const features = [
     {
       icon: <Search size={24} />,
-      title: "Deep Crime Scene Analysis",
-      description: "Analyzes crime scene photos and reports, suggesting possible causes of evidence patterns, and cross-referencing with similar cases."
+      title: "Crime Scene Simulation",
+      description: "Simulates analysis of crime scene photos and reports, suggesting possible interpretations while highlighting the need for professional verification."
     },
     {
       icon: <MessageSquare size={24} />,
-      title: "Witness Interview Analysis",
-      description: "Processes witness statements to identify inconsistencies, suggesting additional questions and validating statements for credibility."
+      title: "Interview Simulation",
+      description: "Processes simulated witness statements to demonstrate how AI might identify patterns, with clear indication of potential limitations and errors."
     },
     {
       icon: <Database size={24} />,
-      title: "Cold Case Resolver",
-      description: "Reviews unsolved cases, analyzing available evidence and suggesting new investigative angles using advanced pattern recognition."
+      title: "Case Study Analysis",
+      description: "Explores historical and fictional cases for educational purposes, demonstrating AI approaches to evidence interpretation."
     },
     {
       icon: <FileText size={24} />,
-      title: "Legal Precedent Finder",
-      description: "Aids in legal aspects by analyzing crime scene data and finding relevant legal precedents to assist prosecutors or defense teams."
+      title: "Legal Context Education",
+      description: "Provides legal context for educational purposes, helping researchers and students understand how evidence might relate to legal frameworks."
     },
     {
       icon: <Code size={24} />,
-      title: "Python-powered Analysis",
-      description: "Employs Python for mathematical calculations, data visualization, and advanced statistical analysis of crime scene evidence."
+      title: "Python-powered Demonstration",
+      description: "Shows how Python could be used for data visualization and statistical analysis in an educational context - results require expert validation."
     },
     {
       icon: <Lock size={24} />,
-      title: "Ethical Investigation",
-      description: "Ensures ethical criminal investigations are conducted with transparent communication of uncertainties and human behavioral factors."
+      title: "Ethics Education",
+      description: "Emphasizes the ethical considerations in AI-assisted investigation, including transparency about limitations and potential biases."
     }
   ];
 
@@ -81,14 +81,14 @@ const FeaturesSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <div className="inline-block py-1 px-3 mb-4 rounded bg-cyber-secondary/10 border border-cyber-secondary/30 text-cyber-secondary text-sm font-medium">
-            KEY CAPABILITIES
+            EDUCATIONAL CAPABILITIES
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-glow-purple">
-            Comprehensive Crime-Solving Features
+            AI Criminology Simulation Features
           </h2>
           <p className="text-white/70 max-w-2xl mx-auto">
-            Leverage advanced AI technologies to enhance criminal investigations,
-            analyze evidence, and uncover critical insights that might otherwise be missed.
+            Experience how AI could potentially assist in criminal investigations through this educational
+            simulation. All outputs are experimental and require expert verification.
           </p>
         </div>
         

@@ -31,27 +31,27 @@ const FAQSection = () => {
   const faqs = [
     {
       question: "What is Crime Solver Pro?",
-      answer: "Crime Solver Pro is an AI-powered criminologist tool designed to assist law enforcement and investigators in analyzing crime scenes, processing evidence, interviewing witnesses, and resolving cold cases using advanced artificial intelligence technologies."
+      answer: "Crime Solver Pro is an experimental AI simulation for educational purposes that demonstrates how AI might approach crime scene analysis. It is NOT a professional investigation tool and should not be used for actual casework."
     },
     {
-      question: "How does Crime Solver Pro analyze evidence?",
-      answer: "The system uses a combination of computer vision, natural language processing, and pattern recognition algorithms to analyze crime scene photos, reports, witness statements, and other evidence. It can identify patterns, inconsistencies, and connections that might be missed by human investigators."
+      question: "How accurate are the outputs from Crime Solver Pro?",
+      answer: "As clearly stated in our disclaimers, outputs can be incorrect, misleading, or incomplete. The tool is experimental in nature and all results require thorough verification by qualified professionals. It should be used for educational purposes only."
     },
     {
       question: "Is Crime Solver Pro meant to replace human investigators?",
-      answer: "No, Crime Solver Pro is designed to be a tool that augments human expertise, not replace it. All findings and recommendations should be reviewed and verified by qualified professionals before taking action."
+      answer: "Absolutely not. Crime Solver Pro is strictly an educational simulation that demonstrates AI capabilities and limitations. All real-world investigations require human expertise, judgment, and proper forensic procedures."
     },
     {
-      question: "What types of cases can Crime Solver Pro assist with?",
-      answer: "Crime Solver Pro can assist with a wide range of criminal investigations, including but not limited to homicides, assaults, burglaries, and cold cases. It's particularly valuable for cases with complex evidence or large amounts of data to process."
+      question: "Who should use Crime Solver Pro?",
+      answer: "The simulation is designed for researchers, educators, students, and those interested in criminology and AI. It is NOT intended for law enforcement professionals working on actual cases."
     },
     {
       question: "How secure is the data processed by Crime Solver Pro?",
-      answer: "Crime Solver Pro takes data security seriously. All data is processed with strict confidentiality measures and follows industry-standard security protocols. However, users should always follow their organization's data handling policies when uploading sensitive case information."
+      answer: "While we take security seriously, we strongly advise against uploading any sensitive, confidential, or real case information to the simulation. It is designed to work with fictional or public domain examples only."
     },
     {
       question: "Can Crime Solver Pro generate court-admissible evidence?",
-      answer: "Crime Solver Pro generates insights and recommendations, not evidence. The tool should be used to guide investigations, and any findings should be properly verified and documented according to legal standards before being presented in court."
+      answer: "No. The outputs from this simulation are not evidence and should never be presented in legal proceedings. The tool is explicitly labeled as experimental and for educational purposes only."
     }
   ];
 

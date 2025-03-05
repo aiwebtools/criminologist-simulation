@@ -27,7 +27,7 @@ const SmallDisclaimer = () => {
               <AlertTriangle size={18} />
             </div>
             <p className="text-sm text-white/80">
-              <span className="font-medium text-cyber-accent">WARNING:</span> This is an experimental tool that may produce incorrect outputs. All results must be verified by professionals. Not for real-world use.
+              <span className="font-medium text-cyber-accent">WARNING:</span> This is an <span className="underline">experimental simulation</span> that may produce incorrect outputs. For educational purposes only. Not for real investigations or legal use.
             </p>
           </div>
           <button 

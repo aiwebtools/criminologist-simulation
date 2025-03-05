@@ -9,12 +9,12 @@ const CTASection = () => {
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-tight">
             <span className="bg-gradient-to-r from-cyber-primary via-cyber-secondary to-cyber-accent bg-clip-text text-transparent">
-              Ready to transform your investigations?
+              Ready to explore AI criminology?
             </span>
           </h2>
           <p className="text-lg text-white/70 mb-10 max-w-2xl mx-auto">
-            Join law enforcement professionals worldwide who are using Crime Solver Pro
-            to solve cases faster and uncover crucial evidence that might otherwise be missed.
+            Try this educational simulation to understand both the potential and limitations
+            of AI in crime analysis. Remember: this is an experimental tool for learning only.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -24,7 +24,7 @@ const CTASection = () => {
               size="lg"
               className="flex items-center gap-2"
             >
-              <span>Try Crime Solver Pro Now</span>
+              <span>Experience The Simulation</span>
               <ArrowRight size={18} />
             </CyberButton>
             
