@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import TestimonialCard from "./TestimonialCard";
 import { motion } from "framer-motion";
@@ -28,24 +27,24 @@ const TestimonialsSection = () => {
 
   const testimonials = [
     {
-      quote: "Crime Solver Pro helped us identify key patterns in witness statements that led to a breakthrough in a case that had been cold for years.",
-      author: "Detective Sarah Johnson",
-      role: "Metropolitan Police Department"
+      quote: "Crime Solver Pro helped our research team identify key patterns in historical case studies that led to new insights in criminal psychology.",
+      author: "Dr. Sarah Johnson",
+      role: "Criminal Psychology Researcher"
     },
     {
-      quote: "The forensic analysis capabilities saved us countless hours of manual work and highlighted evidence correlations we might have missed.",
+      quote: "The forensic analysis capabilities saved our team countless hours of manual work and highlighted evidence correlations we might have missed.",
       author: "Dr. Michael Chen",
-      role: "Forensic Scientist"
+      role: "Independent Forensic Consultant"
     },
     {
-      quote: "As a prosecutor, the legal precedent finder has been invaluable in building stronger cases based on similar historical outcomes.",
+      quote: "As an educator, this tool has been invaluable in teaching students about evidence analysis and case-building strategies using realistic scenarios.",
       author: "James Rodriguez",
-      role: "District Attorney's Office"
+      role: "Professor of Criminal Justice"
     },
     {
-      quote: "The AI's ability to create comprehensive timelines from disparate pieces of evidence has revolutionized our approach to complex cases.",
+      quote: "The AI's ability to create comprehensive timelines from disparate pieces of evidence has revolutionized how we approach complex academic case studies.",
       author: "Alex Thompson",
-      role: "Federal Investigation Bureau"
+      role: "Criminal Justice Author"
     }
   ];
 
@@ -73,11 +72,10 @@ const TestimonialsSection = () => {
             SUCCESS STORIES
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-glow">
-            What Investigators Are Saying
+            What Users Are Saying
           </h2>
           <p className="text-white/70 max-w-2xl mx-auto">
-            Crime Solver Pro is trusted by law enforcement professionals, forensic scientists,
-            and legal teams around the world.
+            Crime Solver Pro is trusted by researchers, educators, and criminal justice professionals for training and educational purposes.
           </p>
         </div>
         
