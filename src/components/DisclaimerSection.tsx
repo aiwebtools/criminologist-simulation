@@ -17,11 +17,19 @@ const DisclaimerSection = () => {
         <div className="max-w-4xl mx-auto glass-panel rounded-lg p-8 border border-cyber-accent/20">
           <div className="space-y-6 text-white/80">
             <p>
+              <strong className="text-white">Experimental Technology:</strong> Crime Solver Pro is an experimental tool that may produce incorrect, incomplete, or misleading outputs. All information provided by this system should be treated as preliminary and requires thorough verification by qualified professionals.
+            </p>
+            
+            <p>
               <strong className="text-white">Intended Use:</strong> Crime Solver Pro is intended to support human investigators by analyzing evidence and providing insights in collaboration with law enforcement and forensic experts. It is not approved for autonomous decision-making or unsupervised deployment.
             </p>
             
             <p>
-              <strong className="text-white">Professional Verification Required:</strong> All findings must be reviewed and verified by qualified professionals to ensure accuracy, fairness, and ethical compliance. This tool does not replace human judgment or expertise.
+              <strong className="text-white">Verification Required:</strong> All outputs, findings, and suggestions must be independently verified and validated by qualified professionals. Never rely solely on the outputs of this system for any critical decisions or conclusions.
+            </p>
+            
+            <p>
+              <strong className="text-white">Known Limitations:</strong> The system has significant limitations in accuracy, reliability, and completeness. It may fail to identify important evidence, draw incorrect connections, or suggest improper investigative approaches.
             </p>
             
             <p>
