@@ -26,17 +26,19 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-cyber-darker text-white overflow-hidden">
       <Header />
-      <SmallDisclaimer />
-      <main>
-        <HeroSection />
-        <FeaturesSection />
-        <HowItWorksSection />
-        <TestimonialsSection />
-        <FAQSection />
-        <DisclaimerSection />
-        <CTASection />
-      </main>
-      <Footer />
+      <div className="pt-16"> {/* Added padding-top to create space for fixed header */}
+        <SmallDisclaimer />
+        <main>
+          <HeroSection />
+          <FeaturesSection />
+          <HowItWorksSection />
+          <TestimonialsSection />
+          <FAQSection />
+          <DisclaimerSection />
+          <CTASection />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 };

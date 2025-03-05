@@ -15,7 +15,7 @@ const SmallDisclaimer = () => {
 
   return (
     <motion.div 
-      className="bg-cyber-dark border-b border-cyber-accent/30 py-2 relative z-20"
+      className="bg-cyber-dark border-b border-cyber-accent/30 py-2 relative z-10 mt-16" // Added margin-top and adjusted z-index
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : -20 }}
       transition={{ duration: 0.5 }}

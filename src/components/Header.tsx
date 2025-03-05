@@ -28,22 +28,22 @@ const Header = () => {
   return (
     <header 
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 py-4 transition-all duration-300",
+        "fixed top-0 left-0 right-0 z-50 py-3 transition-all duration-300", // Reduced padding
         isScrolled 
           ? "bg-cyber-darker/80 backdrop-blur-lg shadow-lg" 
           : "bg-transparent"
       )}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <Logo />
+        <Logo size="sm" /> {/* Using smaller logo size */}
         
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-6">
+        <nav className="hidden md:flex items-center space-x-4"> {/* Reduced spacing */}
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              className="text-white/80 hover:text-cyber-primary transition-colors relative group"
+              className="text-white/80 hover:text-cyber-primary transition-colors relative group text-sm" // Made text smaller
               target={link.href.startsWith("http") ? "_blank" : undefined}
               rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
             >
@@ -55,23 +55,23 @@ const Header = () => {
         
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden cyber-button !px-3 !py-2"
+          className="md:hidden cyber-button !px-2 !py-1 text-sm" // Smaller button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
-          {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {mobileMenuOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
       </div>
       
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-cyber-dark border-y border-cyber-primary/20 shadow-lg">
-          <nav className="container mx-auto px-4 py-4 flex flex-col space-y-4">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-cyber-dark border-y border-cyber-primary/20 shadow-lg z-40"> {/* Adjusted z-index */}
+          <nav className="container mx-auto px-4 py-4 flex flex-col space-y-3"> {/* Reduced spacing */}
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
-                className="text-white/80 hover:text-cyber-primary py-2 transition-colors"
+                className="text-white/80 hover:text-cyber-primary py-1 transition-colors text-sm" // Made text smaller and reduced padding
                 target={link.href.startsWith("http") ? "_blank" : undefined}
                 rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
                 onClick={() => setMobileMenuOpen(false)}
