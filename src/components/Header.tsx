@@ -21,6 +21,7 @@ const Header = () => {
   const navLinks = [
     { name: "TRY CRIME SOLVER PRO", href: "https://chatgpt.com/g/g-6A4aj1uU2-criminologist-gpt" },
     { name: "Public Defender GPT", href: "https://publicdefendergpt.lovable.app/" },
+    { name: "Crime & Forensics GPT", href: "https://chatgpt.com/g/g-67ce097e87108191a9c34690acbee155-crime-forensics-gpt" },
     { name: "FAQ", href: "#faq" },
     { name: "Disclaimer", href: "#disclaimer" },
     { name: "More AI Tools", href: "https://www.aiwebtools.ai" },
@@ -46,6 +47,17 @@ const Header = () => {
                 key={link.name}
                 href={link.href}
                 variant="primary"
+                size="sm"
+                external={link.href.startsWith("http")}
+                className="font-semibold tracking-wide"
+              >
+                {link.name}
+              </CyberButton>
+            ) : link.name === "Crime & Forensics GPT" ? (
+              <CyberButton
+                key={link.name}
+                href={link.href}
+                variant="accent"
                 size="sm"
                 external={link.href.startsWith("http")}
                 className="font-semibold tracking-wide"
@@ -91,6 +103,17 @@ const Header = () => {
                   key={link.name}
                   href={link.href}
                   variant="primary"
+                  size="sm"
+                  external={link.href.startsWith("http")}
+                  className="font-semibold tracking-wide w-full"
+                >
+                  {link.name}
+                </CyberButton>
+              ) : link.name === "Crime & Forensics GPT" ? (
+                <CyberButton
+                  key={link.name}
+                  href={link.href}
+                  variant="accent"
                   size="sm"
                   external={link.href.startsWith("http")}
                   className="font-semibold tracking-wide w-full"
