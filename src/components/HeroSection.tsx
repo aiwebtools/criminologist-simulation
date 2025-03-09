@@ -38,7 +38,7 @@ const HeroSection = () => {
                 transition={{ duration: 0.5, delay: 0.4 }}
               >
                 <span className="text-glow">Crime Solver Pro</span>
-                <span className="block text-2xl md:text-3xl mt-2 text-glow-purple">AI Criminology Simulation</span>
+                <span className="block text-2xl md:text-3xl mt-2 text-glow-purple">AI Criminology Simulation Suite</span>
               </motion.h1>
               
               <motion.p 
