@@ -29,11 +29,9 @@ const Logo = ({ className, size = "md", withText = true }: LogoProps) => {
           <span className={cn("font-bold tracking-tight text-glow", sizeClasses[size])}>
             Criminologist GPT
           </span>
-          {size !== "sm" && (
-            <span className="text-xs text-white/70">
-              Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-primary hover:underline">AiWebTools.Ai</a>
-            </span>
-          )}
+          <span className="text-xs text-white/70">
+            Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-primary hover:underline">AiWebTools.Ai</a>
+          </span>
         </div>
       )}
     </div>
