@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import CyberButton from "./CyberButton";
 import { motion } from "framer-motion";
@@ -47,8 +46,9 @@ const HeroSection = () => {
                 animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : -20 }}
                 transition={{ duration: 0.5, delay: 0.6 }}
               >
-                Explore the possibilities of AI in crime analysis through this educational simulation. 
-                For training, research, and educational purposes only - not for real investigations.
+                Analyze crime scenes, process evidence, and generate investigative leads with cutting-edge AI tools. 
+                Discover new insights through pattern recognition and data correlation techniques. 
+                Perfect for training, research, and educational scenarios - not for actual case work.
               </motion.p>
             </div>
             
@@ -102,7 +102,6 @@ const HeroSection = () => {
             </motion.div>
           </div>
           
-          {/* Video Section */}
           <motion.div 
             className="relative rounded-lg overflow-hidden neo-brutalism"
             initial={{ opacity: 0, scale: 0.9 }}
