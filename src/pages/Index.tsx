@@ -11,6 +11,7 @@ import DisclaimerSection from "../components/DisclaimerSection";
 import CTASection from "../components/CTASection";
 import Footer from "../components/Footer";
 import SmallDisclaimer from "../components/SmallDisclaimer";
+import DisclaimerConsent from "../components/DisclaimerConsent";
 
 const Index = () => {
   // Add scanline effect
@@ -41,6 +42,7 @@ const Index = () => {
         </main>
         <Footer />
       </div>
+      <DisclaimerConsent />
     </div>
   );
 };
