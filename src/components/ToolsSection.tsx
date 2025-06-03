@@ -8,21 +8,21 @@ const ToolsSection = () => {
     {
       icon: <Fingerprint size={32} />,
       title: "Crime Solver Pro",
-      description: "An educational AI criminology simulation that demonstrates how AI might analyze evidence, process crime scenes, and develop investigative hypotheses.",
+      description: "An educational AI criminology simulation that demonstrates how AI might analyze evidence, process crime scenes, and develop investigative hypotheses. Free AI tool for criminal justice education.",
       color: "primary",
       url: "https://chatgpt.com/g/g-6A4aj1uU2-criminologist-gpt"
     },
     {
       icon: <Scale size={32} />,
       title: "Public Defender GPT",
-      description: "Simulate legal assistance for educational purposes, exploring how AI could help understand legal rights and prepare defense strategies.",
+      description: "Simulate legal assistance for educational purposes, exploring how AI could help understand legal rights and prepare defense strategies. Free AI tool for legal education and training.",
       color: "secondary",
       url: "https://publicdefendergpt.lovable.app/"
     },
     {
       icon: <Microscope size={32} />,
       title: "Crime & Forensics GPT",
-      description: "Explore forensic science concepts through AI simulation, demonstrating how technology might analyze evidence and support investigations.",
+      description: "Explore forensic science concepts through AI simulation, demonstrating how technology might analyze evidence and support investigations. Free AI tool for forensic education.",
       color: "accent",
       url: "https://chatgpt.com/g/g-67ce097e87108191a9c34690acbee155-crime-forensics-gpt"
     }
@@ -33,14 +33,14 @@ const ToolsSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <div className="inline-block py-1 px-3 mb-4 rounded bg-cyber-primary/10 border border-cyber-primary/30 text-cyber-primary text-sm font-medium">
-            AI EDUCATIONAL TOOLS
+            FREE AI TOOLS BY AI WEB TOOLS
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-glow">
-            Our Suite of Criminal Justice AI Simulations
+            Our Suite of Free AI Tools for Criminal Justice Education
           </h2>
           <p className="text-white/70 max-w-2xl mx-auto">
-            Explore these educational tools designed to demonstrate the potential applications of AI
-            in criminal justice education, research, and training.
+            Discover these powerful free AI tools from AiWebTools.Ai designed to demonstrate the potential applications of AI
+            in criminal justice education, research, and training. All tools are completely free to use.
           </p>
         </div>
         
@@ -70,7 +70,7 @@ const ToolsSection = () => {
                   external
                   className="w-full justify-center"
                 >
-                  Try It Now
+                  Try Free AI Tool
                 </CyberButton>
               </div>
             </motion.div>
