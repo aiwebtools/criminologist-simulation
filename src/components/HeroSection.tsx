@@ -106,7 +106,7 @@ const HeroSection = () => {
           >
             <div className="relative aspect-video">
               <iframe 
-                src="https://www.youtube.com/embed/jgvqpqmRJi8?autoplay=1&mute=0&controls=1&rel=0&modestbranding=1&hd=1" 
+                src="https://www.youtube.com/embed/3Ll7KPhTt3M?autoplay=1&mute=0&controls=1&rel=0&modestbranding=1&hd=1" 
                 title="Crime Solver Pro - Free AI Tools for Criminal Justice Education by AI Web Tools"
                 className="absolute top-0 left-0 w-full h-full"
                 allowFullScreen
