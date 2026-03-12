@@ -26,7 +26,7 @@ const Footer = () => {
     { name: "Crime & Forensics GPT", href: "https://chatgpt.com/g/g-67ce097e87108191a9c34690acbee155-crime-forensics-gpt" },
     { name: "FAQ", href: "#faq" },
     { name: "Disclaimer", href: "#disclaimer" },
-    { name: "More AI Tools", href: "https://www.aiwebtools.ai" },
+    { name: "More AI Tools", href: "https://aiwebtools.lovable.app/?via=aiwebtools" },
   ];
 
   return (
