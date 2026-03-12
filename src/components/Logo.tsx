@@ -30,7 +30,7 @@ const Logo = ({ className, size = "md", withText = true }: LogoProps) => {
             Criminologist GPT
           </span>
           <span className="text-xs text-white/70">
-            Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-primary hover:underline">AiWebTools.Ai</a>
+            Presented by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-cyber-primary hover:underline">AiWebTools.Ai</a>
           </span>
         </div>
       )}

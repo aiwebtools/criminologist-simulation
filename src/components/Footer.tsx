@@ -26,7 +26,7 @@ const Footer = () => {
     { name: "Crime & Forensics GPT", href: "https://chatgpt.com/g/g-67ce097e87108191a9c34690acbee155-crime-forensics-gpt" },
     { name: "FAQ", href: "#faq" },
     { name: "Disclaimer", href: "#disclaimer" },
-    { name: "More AI Tools", href: "https://www.aiwebtools.ai" },
+    { name: "More AI Tools", href: "https://aiwebtools.lovable.app/?via=aiwebtools" },
   ];
 
   return (
@@ -40,7 +40,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="cyber-button py-2 px-3 flex items-center gap-2 rounded-full"
@@ -105,7 +105,7 @@ const Footer = () => {
                   Privacy Policy
                 </a>
                 <a 
-                  href="https://aiwebtools.ai/terms-of-services" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-white/70 hover:text-cyber-primary transition-colors"
@@ -119,7 +119,7 @@ const Footer = () => {
         
         <div className="border-t border-white/10 pt-6 mt-6 flex flex-col md:flex-row justify-between items-center">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white/60 hover:text-white transition-colors"
