@@ -59,7 +59,7 @@ const DisclaimerSection = () => {
               external 
               variant="accent"
             >
-              Try Crime Solver Pro
+              Try Crime Solver Pro (ChatGPT Version)
             </CyberButton>
           </div>
         </div>

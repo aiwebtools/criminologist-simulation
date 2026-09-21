@@ -48,16 +48,16 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { name: "TRY CRIME SOLVER PRO", href: "https://chatgpt.com/g/g-6A4aj1uU2-criminologist-gpt" },
-    { name: "Public Defender GPT", href: "https://publicdefendergpt.lovable.app/" },
-    { name: "Crime & Forensics GPT", href: "https://chatgpt.com/g/g-67ce097e87108191a9c34690acbee155-crime-forensics-gpt" },
+    { name: "Crime Solver Pro (ChatGPT Version)", href: "https://chatgpt.com/g/g-6A4aj1uU2-criminologist-gpt" },
+    { name: "Public Defender GPT (Web Version)", href: "https://publicdefendergpt.lovable.app/" },
+    { name: "Crime & Forensics GPT (ChatGPT Version)", href: "https://chatgpt.com/g/g-67ce097e87108191a9c34690acbee155-crime-forensics-gpt" },
     { name: "FAQ", href: "#faq" },
     { name: "Disclaimer", href: "#disclaimer" },
     { name: "More AI Tools", href: "https://aiwebtools.lovable.app/?via=aiwebtools" },
   ];
 
   const renderLink = (link: typeof navLinks[0], isMobile = false) => {
-    if (link.name === "TRY CRIME SOLVER PRO") {
+    if (link.name === "Crime Solver Pro (ChatGPT Version)") {
       return (
         <CyberButton
           key={link.name}
@@ -71,7 +71,7 @@ const Header = () => {
         </CyberButton>
       );
     }
-    if (link.name === "Crime & Forensics GPT") {
+    if (link.name === "Crime & Forensics GPT (ChatGPT Version)") {
       return (
         <CyberButton
           key={link.name}
@@ -94,7 +94,7 @@ const Header = () => {
           "bg-cyber-dark/60 border border-white/10 hover:border-cyber-primary/50",
           "text-white/80 hover:text-cyber-primary hover:bg-cyber-dark/80",
           "active:scale-95 touch-manipulation",
-          link.name === "Public Defender GPT" && "text-cyber-secondary hover:text-cyber-secondary hover:border-cyber-secondary/50",
+          link.name === "Public Defender GPT (Web Version)" && "text-cyber-secondary hover:text-cyber-secondary hover:border-cyber-secondary/50",
           isMobile && "block w-full"
         )}
         target={link.href.startsWith("http") ? "_blank" : undefined}
