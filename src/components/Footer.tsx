@@ -21,9 +21,9 @@ const Footer = () => {
   };
   
   const footerLinks = [
-    { name: "TRY CRIME SOLVER PRO", href: "https://chatgpt.com/g/g-6A4aj1uU2-criminologist-gpt" },
-    { name: "Public Defender GPT", href: "https://publicdefendergpt.lovable.app/" },
-    { name: "Crime & Forensics GPT", href: "https://chatgpt.com/g/g-67ce097e87108191a9c34690acbee155-crime-forensics-gpt" },
+    { name: "Crime Solver Pro (ChatGPT Version)", href: "https://chatgpt.com/g/g-6A4aj1uU2-criminologist-gpt" },
+    { name: "Public Defender GPT (Web Version)", href: "https://publicdefendergpt.lovable.app/" },
+    { name: "Crime & Forensics GPT (ChatGPT Version)", href: "https://chatgpt.com/g/g-67ce097e87108191a9c34690acbee155-crime-forensics-gpt" },
     { name: "FAQ", href: "#faq" },
     { name: "Disclaimer", href: "#disclaimer" },
     { name: "More AI Tools", href: "https://aiwebtools.lovable.app/?via=aiwebtools" },

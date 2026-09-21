@@ -63,7 +63,7 @@ const HeroSection = () => {
                 size="lg" 
                 className="flex items-center gap-2"
               >
-                <span>Try The Free AI Tool</span>
+                <span>Try The Free AI Tool (ChatGPT Version)</span>
                 <ArrowRight size={18} />
               </CyberButton>
               

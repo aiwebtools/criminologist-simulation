@@ -7,21 +7,21 @@ const ToolsSection = () => {
   const tools = [
     {
       icon: <Fingerprint size={32} />,
-      title: "Crime Solver Pro",
+      title: "Crime Solver Pro (ChatGPT Version)",
       description: "An educational AI criminology simulation that demonstrates how AI might analyze evidence, process crime scenes, and develop investigative hypotheses. Free AI tool for criminal justice education.",
       color: "primary",
       url: "https://chatgpt.com/g/g-6A4aj1uU2-criminologist-gpt"
     },
     {
       icon: <Scale size={32} />,
-      title: "Public Defender GPT",
+      title: "Public Defender GPT (Web Version)",
       description: "Simulate legal assistance for educational purposes, exploring how AI could help understand legal rights and prepare defense strategies. Free AI tool for legal education and training.",
       color: "secondary",
       url: "https://publicdefendergpt.lovable.app/"
     },
     {
       icon: <Microscope size={32} />,
-      title: "Crime & Forensics GPT",
+      title: "Crime & Forensics GPT (ChatGPT Version)",
       description: "Explore forensic science concepts through AI simulation, demonstrating how technology might analyze evidence and support investigations. Free AI tool for forensic education.",
       color: "accent",
       url: "https://chatgpt.com/g/g-67ce097e87108191a9c34690acbee155-crime-forensics-gpt"
@@ -70,7 +70,7 @@ const ToolsSection = () => {
                   external
                   className="w-full justify-center"
                 >
-                  Try Free AI Tool
+                  {tool.title.includes("ChatGPT") ? "Open ChatGPT Version" : "Open Web Version"}
                 </CyberButton>
               </div>
             </motion.div>
